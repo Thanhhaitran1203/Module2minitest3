@@ -1,5 +1,6 @@
+import java.io.Serializable;
 import java.time.LocalDate;
-public abstract class Material{
+public abstract class Material implements Serializable {
     public final int ONE = 1;
     public final int SEVEN = 7;
     public final int TWO = 2;
